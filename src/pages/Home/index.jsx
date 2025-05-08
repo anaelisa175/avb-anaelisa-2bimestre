@@ -7,7 +7,7 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get("https://jsonplaceholder.typicode.com/posts?_limit=10")
+      .get("https://servicodados.ibge.gov.br/api/v1/localidades/distritos")
       .then((res) => setPosts(res.data));
   }, []);
 
