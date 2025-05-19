@@ -1,4 +1,5 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Detalhes from "../pages/Detalhes"; // <- CORRETO AGORA
 import Home from "../pages/Home";
 import Detalhes from "../pages/Detalhes";
 import Favoritos from "../pages/Favoritos";
